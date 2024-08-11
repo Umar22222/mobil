@@ -1,0 +1,111 @@
+.hero2 {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.hero2 .icon {
+    width: 23px;
+    height: 79px;
+    margin: 0 auto;
+    background-color: #d62828;
+    border-radius: 40px;
+}
+
+.hero2 .about-us {
+    font-size: 1em;
+    color: #777;
+    margin: 10px 0;
+}
+
+.hero2 h1 {
+    font-size: 2em;
+    color: #d62828;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.hero2 p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    color: #555;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fafafa;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.banner .text {
+    flex: 1;
+    padding: 20px;
+    color: #fff;
+    background-color: #d62828;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 10px 0 0 10px;
+}
+
+.banner .image {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.banner .image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.banner .logo {
+    padding: 20px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.banner .logo img {
+    max-width: 150px;
+}
+
+
+@media (max-width: 768px) {
+    .hero2 h1 {
+        font-size: 1.5em;
+    }
+
+    .banner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner .text, .banner .image, .banner .logo {
+        flex: 1;
+        padding: 10px;
+        border-radius: 0;
+    }
+
+    .banner .text {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .banner .image {
+        border-radius: 0;
+    }
+
+    .banner .logo {
+        border-radius: 0 0 10px 10px;
+        justify-content: center;
+    }
+}
